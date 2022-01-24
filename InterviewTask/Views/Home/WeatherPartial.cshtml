@@ -1,0 +1,6 @@
+﻿@model InterviewTask.Models.WeatherViewModel
+<div >
+    Weather: @Html.DisplayFor(m => Model.Main), @Html.DisplayFor(m => Model.Description)<br/>
+    Temperature: @Html.DisplayFor(m => Model.Temp)<sup>o</sup>C, Feels Like: @Html.DisplayFor(m => Model.FeelsLike)<sup>o</sup>C<br />
+    Wind Speed: @Html.DisplayFor(m => Model.WindSpeed) <br />
+</div>
